@@ -1,0 +1,32 @@
+{
+  "name": "semantic-versioning-sayhello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cz-init": "commitizen init cz-conventional-changelog --dev --exact",
+    "commit": "cz",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcomedevelopers/semantic-versioning-sayHello.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dcomedevelopers/semantic-versioning-sayHello/issues"
+  },
+  "homepage": "https://github.com/dcomedevelopers/semantic-versioning-sayHello#readme",
+  "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "standard-version": "^9.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
